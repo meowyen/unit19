@@ -51,6 +51,12 @@ To test hd-wallet-derive was installed correctly:
 ./hd-wallet-derive.php -g --key=xprv9tyUQV64JT5qs3RSTJkXCWKMyUgoQp7F3hA1xzG6ZGu6u6Q9VMNjGr67Lctvy5P8oyaYAL9CAWrUE9i6GoNMKUga5biW6Hx4tws2six3b9c
 ```
 
+To use your own wallet, create a `.env` file in the `wallet` folder and add the following to the file:
+
+```
+MNEMONIC="your mnemonic words"
+```
+
 ### BTC-test Transaction
 
 ```
